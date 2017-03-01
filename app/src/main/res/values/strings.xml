@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NougatCamera</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="flash">Flash</string>
+    <string name="switchbtn">SwapCam</string>
+    <string name="gallery">gallery</string>
+    <string name="file_prefix">file://</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="activity_bg">#e4e5e5</color>
+
+    <color name="mcam_color_light">#FAFAFA</color>
+    <color name="mcam_color_dark">#424242</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="hint_color">#808080</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="dividerNormal">#a2a2a2</color>
+    <color name="howercolor">#40a2a2a2</color>
+    <color name="editTextColor">#999999</color>
+    <color name="detectColor">#80EF7900</color>
+    <color name="detectColorTransparent">#40EF7900</color>
+    <color name="navigationColor">#10000000</color>
+    <color name="bg">#292929</color>
+    <color name="control_background">#cc4285f4</color>
+    <color name="deleteColor">#60FF7900</color>
+
+    <drawable name="bg_template_selector_normal">#93000000</drawable>
+    <drawable name="bg_template_selector_checked">#B3FFFFFF</drawable>
+
+    <color name="thumb_background_color">#000000</color>
+    <color name="zomato_red">#a40100</color>
+    <color name="placeholder_background">#222322</color>
+    <color name="colorTransparent">#4e0a0a0a</color>
+    <color name="editor_bg">#4e0a0a0a</color>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2015 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.amiejais.nougat.camera.camerautils.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/camera_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rl_camera_pics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_camera_control"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:id="@+id/rl_camera_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/switch_camera"
+                android:layout_width="@dimen/left_right_icon_hieght_width"
+                android:layout_height="@dimen/left_right_icon_hieght_width"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true">
+
+                <FrameLayout
+                    android:layout_width="@dimen/left_right_icon_hieght_width"
+                    android:layout_height="@dimen/left_right_icon_hieght_width">
+
+                    <ImageView
+                        android:id="@+id/btn_switch_rear"
+                        android:layout_width="@dimen/left_right_icon_hieght_width"
+                        android:layout_height="@dimen/left_right_icon_hieght_width"
+                        android:src="@drawable/mcam_camera_rear" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/left_right_icon_hieght_width"
+                    android:layout_height="@dimen/left_right_icon_hieght_width">
+
+                    <ImageView
+                        android:id="@+id/btn_switch_front"
+                        android:layout_width="@dimen/left_right_icon_hieght_width"
+                        android:layout_height="@dimen/left_right_icon_hieght_width"
+                        android:src="@drawable/mcam_camera_front" />
+
+                </FrameLayout>
+            </FrameLayout>
+
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="@dimen/camera_hieght_width"
+                android:layout_height="@dimen/camera_hieght_width"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/camera" />
+
+            <ImageView
+                android:id="@+id/flash"
+                android:layout_width="@dimen/left_right_icon_hieght_width"
+                android:layout_height="@dimen/left_right_icon_hieght_width"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/mcam_circle__icon_selector"
+                android:text="@string/flash" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
